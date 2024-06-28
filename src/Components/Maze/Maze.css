@@ -1,0 +1,116 @@
+.App{
+  background-image: url(https://300mind.studio/blog/wp-content/uploads/2024/01/retro-games-vs-modern-games.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 89vh;
+  position: relative;
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.setting {
+    align-self: flex-start;
+    padding: 5px 10px;
+  
+    button {
+      font-size: 15px;
+    }
+  
+    input {
+      font-size: 20px;
+    }
+  }
+  .gamem{
+    padding: 10px;
+    left:40%;
+    bottom: 30%;
+    
+    background-color:rgba(248, 246, 246, 0.7);
+    
+  }
+  .topWall {
+    border-top: 2px solid black;
+  }
+  
+  .rightWall {
+    border-right: 2px solid black;
+  }
+  
+  .bottomWall {
+    border-bottom: 2px solid black;
+  }
+  
+  .leftWall {
+    border-left: 2px solid black;
+  }
+  
+  .sol {
+    div {
+      height: 50%;
+      width: 50%;
+      border-radius: 50%;
+      background: peachpuff;
+      display: inline-block;
+    }
+  }
+  
+  .currentPosition {
+    div {
+      background: salmon;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      display: block;
+    }
+  }
+  
+  .destination {
+    div {
+      background: SpringGreen;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      display: block;
+    }
+  }
+  
+  .currentPosition.destination {
+    div {
+      animation: rainbowBall 5s infinite;
+    }
+  }
+  
+  @keyframes rainbowBall {
+    0%   {background-color: gold;}
+    15%  {background-color: coral;}
+    29%  {background-color: papayawhip;}
+    43%  {background-color: darkseagreen;}
+    57%  {background-color: lightcyan;}
+    71% {background-color: dodgerblue;}
+    84% {background-color: violet;}
+    100% {background-color: indigo;}
+  }
+  
+  #maze {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    td {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  
+  .info {
+    margin-top: 20px;
+    width: 100%;
+    background: cornsilk;
+    padding: 3px;
+    font-size: 20px;
+    p {
+      text-transform: uppercase;
+      color: forestgreen;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.connect{
+  background-image: url(https://300mind.studio/blog/wp-content/uploads/2024/01/retro-games-vs-modern-games.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 89vh;
+  position: relative;
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.four{
+  padding: 10px;
+    left:40%;
+    bottom: 30%;
+    
+    background-color:rgba(248, 246, 246, 0.7);
+}
+  .board {
+    margin: auto;
+    display: grid;
+    justify-content: stretch;
+    max-width: 300px;
+    height: 250px;
+  }
+  .drop-button {
+    background-color: black;
+  }
+  
+  .cell {
+    width: 100%;
+  }
+  
